@@ -1,0 +1,14 @@
+{
+  "name": "TokenMarkdown Sub-150ms Web Extraction",
+  "description": "Cut prompt token costs by 95% before feeding scraped pages to Clay AI columns.",
+  "endpoint": "https://tokenmarkdown.com/v1/extract",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer {{tokenmarkdown_api_key}}",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "url": "{{company_website_url}}",
+    "include_images": false
+  }
+}

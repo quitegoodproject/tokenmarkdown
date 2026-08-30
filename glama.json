@@ -1,0 +1,27 @@
+{
+  "$schema": "https://glama.ai/mcp/schema.json",
+  "name": "tokenmarkdown-mcp",
+  "description": "Sub-150ms Web-to-Markdown Engine for LLM context windows and AI coding agents.",
+  "homepage": "https://tokenmarkdown.com",
+  "repository": "https://github.com/quitegoodproject/tokenmarkdown",
+  "transport": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "tokenmarkdown-mcp"
+    ],
+    "env": {
+      "TOKENMARKDOWN_API_KEY": "${TOKENMARKDOWN_API_KEY}"
+    }
+  },
+  "tags": [
+    "web-scraping",
+    "markdown",
+    "mcp",
+    "rag",
+    "context-window",
+    "claude-desktop",
+    "cursor"
+  ]
+}

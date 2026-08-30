@@ -1,0 +1,21 @@
+{
+  "name": "tokenmarkdown-mcp",
+  "version": "1.0.0",
+  "description": "Sub-150ms Web-to-Markdown Engine & Model Context Protocol (MCP) Server.",
+  "author": "Quite Good Project",
+  "homepage": "https://tokenmarkdown.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quitegoodproject/tokenmarkdown.git"
+  },
+  "tools": [
+    {
+      "name": "extract_markdown",
+      "description": "Extracts clean, token-minified markdown from any URL in sub-150ms, stripping tracking scripts, ads, and navigational noise."
+    },
+    {
+      "name": "check_quota",
+      "description": "Checks remaining TokenMarkdown API credits."
+    }
+  ]
+}

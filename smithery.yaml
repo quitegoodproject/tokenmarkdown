@@ -1,0 +1,18 @@
+name: tokenmarkdown-mcp
+version: 1.0.0
+description: Sub-150ms Web-to-Markdown Engine & MCP Server. Strips 95% of HTML bloat for LLM context window efficiency.
+repository: https://github.com/quitegoodproject/tokenmarkdown
+homepage: https://tokenmarkdown.com
+command: npx
+args:
+  - -y
+  - tokenmarkdown-mcp
+env:
+  TOKENMARKDOWN_API_KEY:
+    description: Your TokenMarkdown API Key (Get 50 free conversions at https://tokenmarkdown.com)
+    required: false
+tools:
+  - name: extract_markdown
+    description: Extracts clean, token-minified markdown from any URL in sub-150ms.
+  - name: check_quota
+    description: Checks remaining API conversion credits.
