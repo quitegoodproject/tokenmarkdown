@@ -101,7 +101,7 @@ curl -X POST "https://tokenmarkdown.com/v1/extract" \
 ## 🏛️ developer suite & Governance
 
 TokenMarkdown is an official developer primitive engineered by **[The Quite Good Project](https://quitegoodproject.com)**.  
-* **Parent Specification**: [RFC-2601 Sovereign Primitives Spec](https://quitegoodproject.com)  
+* **Parent Specification**: [RFC-2601 Developer Primitives Spec](https://quitegoodproject.com)  
 * **Companion Tool**: [TokenEnrich.com](https://tokenenrich.com) (Sub-140ms ~180-Token Firmographics)
 
 ---
