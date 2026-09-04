@@ -1,12 +1,12 @@
 {
-  "name": "tokenmarkdown-mcp",
+  "name": "@quitegoodproject/tokenmarkdown-mcp",
   "version": "1.0.0",
   "description": "Sub-150ms Web-to-Markdown Engine & Model Context Protocol (MCP) Server for LLM Context Efficiency & RAG Pipelines.",
-  "main": "dist/index.js",
+  "main": "bin/cli.js",
   "type": "module",
   "bin": {
-    "tokenmarkdown": "./bin/cli.js",
-    "tokenmarkdown-mcp": "./bin/cli.js"
+    "tokenmarkdown": "bin/cli.js",
+    "tokenmarkdown-mcp": "bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js",
@@ -30,14 +30,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quitegoodproject/tokenmarkdown"
+    "url": "git+https://github.com/quitegoodproject/tokenmarkdown.git"
   },
-  "homepage": "https://tokenmarkdown.com",
+  "homepage": "https://quitegoodproject.com",
   "bugs": "https://github.com/quitegoodproject/tokenmarkdown/issues",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.0"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
